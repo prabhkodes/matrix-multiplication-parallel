@@ -1,0 +1,42 @@
+----------------------------------------------------------------------------------------------------
+Function : DGEMM
+Rank 0 process time : 663 ms
+Rank 1 process time : 660 ms
+Rank 2 process time : 668 ms
+Rank 3 process time : 659 ms
+----------------------------------------------------------------------------------------------------
+Function : Extract B
+Rank 0 process time : 0 ms
+Rank 1 process time : 0 ms
+Rank 2 process time : 0 ms
+Rank 3 process time : 0 ms
+----------------------------------------------------------------------------------------------------
+Function : INIT A,B
+Rank 0 process time : 110 ms
+Rank 1 process time : 110 ms
+Rank 2 process time : 110 ms
+Rank 3 process time : 110 ms
+----------------------------------------------------------------------------------------------------
+Function : MPI AllGather
+Rank 0 process time : 9 ms
+Rank 1 process time : 10 ms
+Rank 2 process time : 4 ms
+Rank 3 process time : 14 ms
+----------------------------------------------------------------------------------------------------
+Function : Write to C
+Rank 0 process time : 0 ms
+Rank 1 process time : 0 ms
+Rank 2 process time : 0 ms
+Rank 3 process time : 0 ms
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Function : DGEMM                Max time:   668ms Min time:   659ms Avg time : 662.5ms
+----------------------------------------------------------------------------------------------------
+Function : Extract B            Max time:     0ms Min time:     0ms Avg time :     0ms
+----------------------------------------------------------------------------------------------------
+Function : INIT A,B             Max time:   110ms Min time:   110ms Avg time :   110ms
+----------------------------------------------------------------------------------------------------
+Function : MPI AllGather        Max time:    14ms Min time:     4ms Avg time :  9.25ms
+----------------------------------------------------------------------------------------------------
+Function : Write to C           Max time:     0ms Min time:     0ms Avg time :     0ms
+----------------------------------------------------------------------------------------------------

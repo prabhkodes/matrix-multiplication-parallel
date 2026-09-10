@@ -1,0 +1,48 @@
+# Node: 1
+# Units: ms
+# Columns: Label, Ranks_per_node, MPI_ranks_total, OMP_threads, DGEMM, MPI_AllGather, Extract_B, INIT_A_B, Write_C
+Label                                   Ranks_per_node  MPI_ranks_total  OMP_threads  DGEMM  MPI_AllGather  Extract_B  INIT_A_B  Write_C
+"N=1 | rpn=28 | mpi=28 | omp=4"         28              28               4            3637   1262           2          268       27
+"N=1 | rpn=56 | mpi=56 | omp=2"         56              56               2            3843   1694           0          144        0
+"N=1 | rpn=14 | mpi=14 | omp=8"         14              14               8            3489   1152          21          510       55
+"N=1 | rpn=4  | mpi=4  | omp=28"         4               4              28             293    118           5         1775        8
+"N=1 | rpn=2  | mpi=2  | omp=56"         2               2              56            1402    153         105         3547       76
+"N=1 | rpn=8  | mpi=8  | omp=14"         8               8              14             102     53           0          889        0
+
+
+"N=2 | rpn=28 | mpi=56  | omp=4"        28              56               4            2072   1078           0          139        0
+"N=2 | rpn=56 | mpi=112 | omp=2"        56             112               2            2256   1338           0           73        0
+"N=2 | rpn=14 | mpi=28  | omp=8"        14              28               8            1931    933           2          256       23
+"N=2 | rpn=4  | mpi=8   | omp=28"        4               8              28              68     32           0          891        0
+"N=2 | rpn=2  | mpi=4   | omp=56"        2               4              56             267     60           5         1778        8
+"N=2 | rpn=8  | mpi=16  | omp=14"        8              16              14            1838    944           6          446       32
+
+
+"N=4 | rpn=28 | mpi=112 | omp=4"        28              112              4            1462    867           0           76        0
+"N=4 | rpn=56 | mpi=224 | omp=2"        56              224              2            1638   1385           0           37        0
+"N=4 | rpn=14 | mpi=56  | omp=8"        14               56              8            1254    790           0          129        0
+"N=4 | rpn=4  | mpi=16  | omp=28"        4               16             28            1169    926           5          462       32
+"N=4 | rpn=2  | mpi=8   | omp=56"        2                8             56              70     28           0          891        0
+"N=4 | rpn=8  | mpi=32  | omp=14"        8               32             14            1147    799           1          233        0
+
+
+"N=8 | rpn=14 | mpi=112 | omp=8"        14              112              8             998    762           0          67        0
+"N=8 | rpn=28 | mpi=224 | omp=4"        28              224              4            1339   1065           0          39        0
+"N=8 | rpn=56 | mpi=448 | omp=2"        56              448              2            1355   1411           0          21        0
+"N=8 | rpn=8  | mpi=64  | omp=14"        8               64             14             821    696           0         118        0
+"N=8 | rpn=4  | mpi=32  | omp=28"        4               32             28             923    820           1         233        0
+"N=8 | rpn=2  | mpi=16  | omp=56"        2               16             56            1049    800           5         448       32
+
+
+"N=10 | rpn=2  | mpi=20  | omp=56"        2               20              56             28     30           2          360        0
+"N=10 | rpn=4  | mpi=40  | omp=28"        4               40              28              4     12           0          181        0
+"N=10 | rpn=8  | mpi=80  | omp=14"        8               80              14            732    667           3          105        0
+"N=10 | rpn=14 | mpi=140 | omp=8"        14              140               8            985    834           0           55        0
+"N=10 | rpn=28 | mpi=280 | omp=4"        28              280               4           1130   1238           0           32        0
+
+
+"N=16 | rpn=14 | mpi=224 | omp=8"       14              224              8            684    782           2           37        0
+"N=16 | rpn=28 | mpi=448 | omp=4"       28              448              4            902   1195           0           21        0
+"N=16 | rpn=8  | mpi=128 | omp=14"       8              128             14            650    727           0           58        0
+"N=16 | rpn=4  | mpi=64  | omp=28"       4               64             28            518    765           0          115        0
+"N=16 | rpn=2  | mpi=32  | omp=56"       2               32             56            581    723           3          227        0
