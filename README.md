@@ -1,5 +1,14 @@
 # matrix-multiplication-parallel
 
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![MPI](https://img.shields.io/badge/MPI-364d6e?style=flat-square&logoColor=white)
+![OpenMP](https://img.shields.io/badge/OpenMP-006DB8?style=flat-square&logoColor=white)
+![OpenBLAS](https://img.shields.io/badge/OpenBLAS-0096D6?style=flat-square&logoColor=white)
+![cuBLAS](https://img.shields.io/badge/cuBLAS-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![SLURM](https://img.shields.io/badge/SLURM-46a2f1?style=flat-square&logoColor=white)
+
 The same dense matrix multiply, four ways — hand-tiled for cache, distributed with Cannon's algorithm,
 scaled with MPI+OpenMP over OpenBLAS, and pushed onto GPUs with cuBLAS. GEMM is the one kernel where
 you can actually reach hardware peak, so it's the honest way to find out what each parallel model
